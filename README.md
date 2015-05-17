@@ -68,6 +68,8 @@ None
       - name: "build-essential"
       - name: "software-properties-common"
       - name: "ansible"
+      roles:
+      - novuso.base
 
 ## License
 
