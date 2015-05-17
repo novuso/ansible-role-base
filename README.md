@@ -57,17 +57,17 @@ None
     ---
     - hosts: all
       vars:
-      base_repositories:
-      - repo: "ansible/ansible"
-      base_packages:
-      - name: "curl"
-      - name: "git"
-      - name: "wget"
-      - name: "unzip"
-      - name: "ack-grep"
-      - name: "build-essential"
-      - name: "software-properties-common"
-      - name: "ansible"
+      - base_repositories:
+        - repo: "ansible/ansible"
+      - base_packages:
+        - name: "curl"
+        - name: "git"
+        - name: "wget"
+        - name: "unzip"
+        - name: "ack-grep"
+        - name: "build-essential"
+        - name: "software-properties-common"
+        - name: "ansible"
       roles:
       - novuso.base
 
